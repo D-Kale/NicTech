@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Sun, Moon } from "lucide-react"
+import Image from 'next/image';
 
 export default function Header({ darkMode, toggleDarkMode, setActiveSection }) {
   return (
@@ -7,7 +8,7 @@ export default function Header({ darkMode, toggleDarkMode, setActiveSection }) {
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-xl"> <img className=" size-12" src="/images/logo.png" alt="logo"/> </span>
+            <span className="text-white font-bold text-xl"> <Image className=" size-12" src="/images/logo.png" alt="logo"/> </span>
           </div>
           <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">NicTech</h1>
         </div>

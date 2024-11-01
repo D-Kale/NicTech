@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -89,7 +90,7 @@ function TeamMember({ name, image, role }) {
   return (
     <div className="text-center">
       <div className="relative inline-block">
-        <img src={image} alt={name} className="w-24 h-24 rounded-full mx-auto mb-2 object-cover" />
+        <Image src={image} alt={name} className="w-24 h-24 rounded-full mx-auto mb-2 object-cover" />
       </div>
       <p className="font-medium dark:text-white">{name}</p>
       <p className="text-sm text-gray-600 dark:text-gray-400">{role}</p>

@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image';
 
 export default function ServiceDetail({ service }) {
   if (!service) return null;
@@ -20,7 +20,7 @@ export default function ServiceDetail({ service }) {
             <p className="dark:text-gray-300">{service.details}</p>
             
             <div className="container flex items-center mt-6">
-              <img width={80} src="/images/logo.png" alt="codigo" /> <p className=" text-xl font-bold ml-5"> NicTechLicensed </p>
+              <Image width={80} src="/images/logo.png" alt="codigo" /> <p className=" text-xl font-bold ml-5"> NicTechLicensed </p>
             </div>
             
           </CardContent>
