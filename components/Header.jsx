@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Header({ darkMode, toggleDarkMode, setActiveSection }) {
   return (
-    <header className="bg-white dark:bg-gray-800 shadow-md">
+    <header className="bg-white size-full dark:bg-gray-800 shadow-md">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
