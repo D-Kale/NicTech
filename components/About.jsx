@@ -24,7 +24,7 @@ export default function About() {
             </CardHeader>
             <CardContent>
               <p className="dark:text-gray-300">
-                Fundada en 2020, NicTech nació de la pasión por la tecnología y el deseo de impulsar la innovación en nuestro país. 
+                Fundada en 2024, NicTech nació de la pasión por la tecnología y el deseo de impulsar la innovación en nuestro país. 
                 Desde entonces, hemos crecido constantemente, ampliando nuestros servicios y construyendo un equipo de expertos dedicados.
               </p>
             </CardContent>
@@ -56,17 +56,17 @@ export default function About() {
             <TeamMember 
               name="Rodney Morales" 
               image="https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-              role="Ingeniero de Software"
+              role="Encargado de ventas"
             />
             <TeamMember 
               name="Moises Fonseca" 
               image="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-              role="Especialista en Bases de Datos"
+              role="Especialista en Diseño"
             />
             <TeamMember 
               name="Carlos Mora" 
               image="https://images.unsplash.com/photo-1546182990-dffeafbe841d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-              role="Desarrollador Mobile"
+              role="Economista profecional"
             />
             <TeamMember 
               name="Emmanuel Murillo" 
@@ -76,7 +76,7 @@ export default function About() {
             <TeamMember 
               name="Luis Espinoza" 
               image="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-              role="Diseñador UX/UI"
+              role="Especialista en bases de datos"
             />
           </div>
         </div>

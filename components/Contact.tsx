@@ -37,8 +37,8 @@ export default function Contact() {
                 <CardTitle className="text-2xl font-bold">Información de Contacto</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="mb-2"><strong>Dirección:</strong> Calle Principal #123, Ciudad, País</p>
-                <p className="mb-2"><strong>Teléfono:</strong> +123 456 7890</p>
+                <p className="mb-2"><strong>Dirección:</strong> No definida, ya que nuestro trabajo es remoto </p>
+                <p className="mb-2"><strong>Teléfono:</strong> +505 7709 ****</p>
                 <p className="mb-2"><strong>Email:</strong> info@nictech.com</p>
                 <p><strong>Horario:</strong> Lunes a Viernes, 9:00 AM - 6:00 PM</p>
               </CardContent>
